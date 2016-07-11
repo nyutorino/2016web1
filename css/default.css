@@ -34,72 +34,45 @@ dt{
   font-weight: bold;
 }
 
-.btn {
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  margin: 5px;
-  width: 100px;
-  height: 40px;
-  padding: 10px;
-  border: none;
-  font-size: 16px;
-}
-
-.btn:hover {/* マウスが乗った時 */
-  opacity: 0.7;
-}
-
-.btn:active {/* ボタンを押した瞬間 */
-  color: white;
-}
-
-.btn-submit {/* okボタンだけの設定 */
-  background-color: silver;
-}
-
-.btn-reset {/* リセットボタンだけの設定 */
-  background-color: lightcoral;
-}
-
 #ingredient{
   border: 2px solid lightcoral;
   border-collapse: collapse;
 }
 
 th{
-  border: 1px solid lightcoral;  /* 枠線 */
-  background-color: mistyrose;   /* 背景色 */
-  padding: 5px;                  /* 枠内の余白 */
-  width: 100px;                  /* 幅 */
-  text-align: center;           /* 中央寄せ */
+  border: 1px solid lightcoral;  
+  background-color: mistyrose;   
+  padding: 5px;                  
+  width: 100px;                  
+  text-align: center;           
 }
 
 td{
-  border: 1px solid lightcoral;  /* 枠線 */
-  padding: 5px;                  /* 枠内の余白 */
-  width: 80px;                   /* 幅 */
-  text-align: right;             /* 右寄せ */
+  border: 1px solid lightcoral;  
+  padding: 5px;                  
+  width: 80px;                  
+  text-align: right;            
 }
 
 caption{
-  padding: 5px;                  /* 余白 */
+  padding: 5px;              
 }
 
 #price{
-  background-color: lightyellow;  /* 背景色 */
+  background-color: lightyellow;  
 }
 
 thead th, tfoot th{
-  background-color: white;        /* 背景色 */
+  background-color: white;        
 }
 
 thead td{
-  color: white;                   /* 文字色 */
-  background-color: lightcoral;   /* 背景色 */
-  text-align: center;             /* 中央寄せ */
+  color: white;                   
+  background-color: lightcoral;   
+  text-align: center;            
 }
 
 tfoot td{
-  font-weight: bold;              /* 字の太さ */
-  background-color: white;        /* 背景色 */
+  font-weight: bold;             
+  background-color: white;       
 }
