@@ -76,3 +76,13 @@ tfoot td{
   font-weight: bold;             
   background-color: white;       
 }
+#gnav li {
+  float: left;/* 固定幅にするためにfloatで指定 */
+  width: 156px;
+  border-right: white 1px solid;/* 右に線を引く */
+  list-style-type: none;/* 点を消す */
+}
+
+#gnav li:first-child {
+  border-left: white 1px solid;/* 左にも線を引く 
+  }
