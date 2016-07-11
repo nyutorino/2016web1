@@ -4,24 +4,7 @@ for(idx in thmubs){
         document.getElementById("bigimg").src = 'img/' + this.dataset.image + '.jpg';
     }
 }
-// クッキー保存　(クッキー名, クッキーの値, クッキーの有効日数)
-function setCookie(c_name,value,expiredays){
-    // 有効期限の日付
-    var extime = new Date().getTime();
-    var cltime = new Date(extime + (60*60*24*1000*expiredays));
-    var exdate = cltime.toUTCString();
-    // クッキーに保存する文字列を生成
-    var s="";
-    s += c_name +"="+ escape(value);// 値はエンコードしておく
-    s += "; path="+ location.pathname;
-    if(expiredays){
-        s += "; expires=" +exdate+"; ";
-    }else{
-        s += "; ";
-    }
-    // クッキーに保存
-    document.cookie=s;
-}
+
 
 // クッキーの値を取得 (クッキー名)
 function getCookie(c_name){
