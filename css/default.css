@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+body{
+  background-color: #D0E0C0;
+}
+
+#main{
+  width: 798px; /* 960-2*(80[padding]+1[border])  */
+  margin: 40px auto;
+  padding: 40px 80px;
+  border: green 1px solid;
+  background-color: white;
+}
+
+.photo{
+  float: left;
+  margin-right: 30px;
+}
+
+.moyasi_picture:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.explanation{
+  float: left;
+  width: 468px;
+}
+
+dt{
+  clear: left;
+  float: left;
+  font-weight: bold;
+}
+
+.btn {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.btn:hover {/* マウスが乗った時 */
+  opacity: 0.7;
+}
+
+.btn:active {/* ボタンを押した瞬間 */
+  color: white;
+}
+
+.btn-submit {/* okボタンだけの設定 */
+  background-color: silver;
+}
+
+.btn-reset {/* リセットボタンだけの設定 */
+  background-color: lightcoral;
+}
+
+#ingredient{
+  border: 2px solid lightcoral;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid lightcoral;  /* 枠線 */
+  background-color: mistyrose;   /* 背景色 */
+  padding: 5px;                  /* 枠内の余白 */
+  width: 100px;                  /* 幅 */
+  text-align: center;           /* 中央寄せ */
+}
+
+td{
+  border: 1px solid lightcoral;  /* 枠線 */
+  padding: 5px;                  /* 枠内の余白 */
+  width: 80px;                   /* 幅 */
+  text-align: right;             /* 右寄せ */
+}
+
+caption{
+  padding: 5px;                  /* 余白 */
+}
+
+#price{
+  background-color: lightyellow;  /* 背景色 */
+}
+
+thead th, tfoot th{
+  background-color: white;        /* 背景色 */
+}
+
+thead td{
+  color: white;                   /* 文字色 */
+  background-color: lightcoral;   /* 背景色 */
+  text-align: center;             /* 中央寄せ */
+}
+
+tfoot td{
+  font-weight: bold;              /* 字の太さ */
+  background-color: white;        /* 背景色 */
+}
