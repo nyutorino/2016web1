@@ -11,6 +11,16 @@ body{
   border: yellow 1px solid;
   background-color: white;
 }
+/* --- 見出し --- */
+h3.heading {
+width: 570px; /* 見出しの幅 */
+margin: 0 0 1em; /* 見出しのマージン（上、左右、下） */
+padding: 20px 15px; /* 見出しのパディング（上下、左右） */
+background: #c6e6ef url(heading_back4_1.gif) repeat-x top; /* 見出しの背景 */
+font-size: 120%; /* 見出しの文字サイズ */
+line-height: 100%;
+}
+
 
 .photo{
   float: left;
