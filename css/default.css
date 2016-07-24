@@ -195,3 +195,46 @@ button {
     margin-left: .5em;
 }
 
+/* --- ランキングエリア --- */
+div.ranking {
+width: 300px; /* ランキングエリアの幅 */
+font-size: 80%;
+}
+
+/* --- 見出し --- */
+div.ranking h3 {
+margin: 0 0 10px; /* 見出しのマージン（上、左右、下） */
+padding: 5px 10px; /* 見出しのパディング（上下、左右） */
+background-color: #f0f0f0;
+font-size: 100%;
+}
+
+/* --- ランキングリスト --- */
+div.ranking ol {
+margin: 0;
+padding: 0 0 5px; /* ランキングリストのパディング（上、左右、下） */
+border-top: 1px #c0c0c0 dotted; /* ランキングリストの上境界線 */
+list-style-type: none;
+}
+
+/* --- リスト項目 --- */
+div.ranking li {
+padding: 9px 0 9px 48px; /* 項目のパディング（上右下左） */
+background-repeat: no-repeat;
+background-position: 3px 4px; /* 背景画像の表示位置（左からの距離、上からの距離） */
+border-bottom: 1px #c0c0c0 dotted; /* 項目の下境界線 */
+line-height: 120%;
+}
+
+/* --- マーカー画像 --- */
+div.ranking li.rank1 {
+background-image: url(rank_1.gif); /* 1位の項目 */
+}
+div.ranking li.rank2 {
+background-image: url(rank_2.gif); /* 2位の項目 */
+}
+div.ranking li.rank3 {
+background-image: url(rank_3.gif); /* 3位の項目 */
+}
+
+
